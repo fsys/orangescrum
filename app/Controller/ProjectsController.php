@@ -129,7 +129,6 @@ class ProjectsController extends AppController {
 	}
 	
 	function settings($img = null) {
-		
 		if(isset($this->params['data']['Project'])) {
 		    $this->loadModel("ProjectUser");
 		    $postProject['Project'] = $this->params['data']['Project'];
@@ -300,7 +299,8 @@ class ProjectsController extends AppController {
 		}
 		
 		if(SES_TYPE == 3) {
-			$query .= " AND Project.user_id=".$this->Auth->user('id');
+			/* All projects can be seen and managed from /projects/manage by every users */
+			//$query .= " AND Project.user_id=".$this->Auth->user('id');
 			if($pjname){
 				$prjAllArr = $this->Project->query("SELECT SQL_CALC_FOUND_ROWS Project.id,uniq_id,name,Project.user_id,project_type,short_name,Project.isactive,dt_updated,(select count(easycases.id) as tot from easycases where easycases.project_id=Project.id and easycases.istype='1' and easycases.isactive='1') as totalcase,(select ROUND(SUM(easycases.hours), 1) as hours from easycases where easycases.project_id=Project.id and easycases.reply_type='0' and easycases.isactive='1') as totalhours,(select count(company_users.id) as tot from company_users, project_users where project_users.user_id = company_users.user_id and project_users.company_id = company_users.company_id and company_users.is_active = 1
 	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project WHERE Project.name!='' ".$query." and name LIKE '%".addslashes($pjname)."%' ORDER BY dt_created DESC LIMIT $limit1,$limit2 ");                   
@@ -326,12 +326,12 @@ class ProjectsController extends AppController {
 		$tot = $this->Project->query("SELECT FOUND_ROWS() as total");
 		$CaseCount = $tot[0][0]['total'];
 		$active_project_cnt = 0;$inactive_project_cnt=0;
-		if(SES_TYPE == 3) {
-			$grpcount = $this->Project->query('SELECT count(Project.id) as prjcnt, Project.isactive FROM projects AS Project WHERE Project.user_id='.$this->Auth->user('id').' AND Project.company_id='.SES_COMP.' GROUP BY Project.isactive');	
-		}
-		else {
+		//if(SES_TYPE == 3) {
+			//$grpcount = $this->Project->query('SELECT count(Project.id) as prjcnt, Project.isactive FROM projects AS Project WHERE Project.user_id='.$this->Auth->user('id').' AND Project.company_id='.SES_COMP.' GROUP BY Project.isactive');
+		//}
+		//else {
 			$grpcount = $this->Project->query('SELECT count(Project.id) as prjcnt, Project.isactive FROM projects AS Project WHERE Project.company_id='.SES_COMP.' GROUP BY Project.isactive');	
-		}
+		//}
 		if($grpcount){
 			foreach($grpcount AS $key=>$val){
 				if($val['Project']['isactive']==1){

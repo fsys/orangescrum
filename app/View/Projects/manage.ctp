@@ -76,7 +76,10 @@
 	<?php //}
 	if(count($prjAllArr)){
 	foreach($prjAllArr as $k=>$prjArr){
-	$isAuthorizedToManage = ($prjArr['user_id'] == $loggedUserId);
+	$isAuth = false;
+	if($prjArr['Project']['user_id'] == SES_ID && USER_TYPE == 2) {
+		$isAuth = true;
+	}
 	$totUser = !empty($prjArr[0]['totusers']) ? $prjArr[0]['totusers']: '0';
 	$totCase = (!empty($prjArr[0]['totalcase'])) ? $prjArr[0]['totalcase']: '0';	
 	$totHours = (!empty($prjArr[0]['totalhours'])) ? $prjArr[0]['totalhours']: '0.0';
@@ -137,7 +140,7 @@
 			}
 			?>
 			</div>
-			<?php if($isAuthorizedToManage && $projtype == '') { ?>
+			<?php if($isAuth && $projtype == '') { ?>
 			    <div class="proj_mng">
 				<div class="fl">
 				    <a href="javascript:void(0);" class="icon-add-usr fl" data-prj-id="<?php echo $prjArr['Project']['id'];?>" data-prj-name="<?php echo $prj_name;?>">Add User</a><br />

@@ -356,7 +356,6 @@ class ProjectsController extends AppController {
 		  $this->set('count_grid',$count_grid);
 		  $this->set('prjAllArr',$prjAllArr);
 		  $this->set('projtype',$projtype);
-		  $this->set('loggedUserId',$this->Auth->user('id'));
 		  $this->set('action',$action);
 		  $this->set('uniqid',$uniqid);
 		  $this->set('arrprj',$arrprj);

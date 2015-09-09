@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="495af4b3-d6fa-480e-807d-81c1b3661ae4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cake_config_setting_v0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ProjectsController.php" afterPath="$PROJECT_DIR$/app/Controller/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/footer_inner.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/footer_inner.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Users/login.ctp" afterPath="$PROJECT_DIR$/app/View/Users/login.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Projects/manage.ctp" afterPath="$PROJECT_DIR$/app/View/Projects/manage.ctp" />
+    </list>
+    <ignored path="orangescrum.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="orangescrum" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ProjectsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ProjectsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.4905663">
+              <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+              <folding>
+                <marker date="1441723765233" expanded="true" signature="4966:5245" placeholder="select User...project_users..." />
+                <marker date="1441723765233" expanded="true" signature="6260:6394" placeholder="SELECT id FR..projects..." />
+                <marker date="1441723765233" expanded="true" signature="6617:6762" placeholder="SELECT id FR..projects..." />
+                <marker date="1441723765233" expanded="true" signature="10128:10170" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="10428:10458" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="10611:10654" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="10920:10962" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="12002:12089" placeholder="SELECT name ..projects..." />
+                <marker date="1441723765233" expanded="true" signature="12775:13748" placeholder="SELECT SQL_C..." />
+                <marker date="1441723765233" expanded="true" signature="13829:14760" placeholder="SELECT SQL_C..." />
+                <marker date="1441723765233" expanded="true" signature="14848:15791" placeholder="SELECT SQL_C..projects..." />
+                <marker date="1441723765233" expanded="true" signature="14945:15083" placeholder="select count..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="15099:15254" placeholder="select ROUND..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="15271:15525" placeholder="select count..company_users..." />
+                <marker date="1441723765233" expanded="true" signature="15540:15641" placeholder="SELECT SUM(c..case_files..." />
+                <marker date="1441723765233" expanded="true" signature="15872:16772" placeholder="SELECT SQL_C..projects..." />
+                <marker date="1441723765233" expanded="true" signature="15968:16106" placeholder="select count..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="16122:16277" placeholder="select ROUND..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="16294:16548" placeholder="select count..company_users..." />
+                <marker date="1441723765233" expanded="true" signature="16563:16664" placeholder="SELECT SUM(c..case_files..." />
+                <marker date="1441723765233" expanded="true" signature="17043:17232" placeholder="SELECT count..projects..." />
+                <marker date="1441723765233" expanded="true" signature="17291:17432" placeholder="SELECT count..projects..." />
+                <marker date="1441723765233" expanded="true" signature="22523:22565" placeholder="SELECT MAX(i..project_users..." />
+                <marker date="1441723765233" expanded="true" signature="28889:28931" placeholder="SELECT MAX(i..project_users..." />
+                <marker date="1441723765233" expanded="true" signature="29625:29690" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="29867:29946" placeholder="UPDATE case_..." />
+                <marker date="1441723765233" expanded="true" signature="30323:30469" placeholder="INSERT INTO ..." />
+                <marker date="1441723765233" expanded="true" signature="30635:30714" placeholder="UPDATE case_..." />
+                <marker date="1441723765233" expanded="true" signature="32139:32585" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="32635:33031" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="33098:33576" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="33628:34055" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="35230:35272" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="35710:35740" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="35893:35936" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="36385:36427" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="37299:37375" placeholder="SELECT name ..projects..." />
+                <marker date="1441723765233" expanded="true" signature="37896:38814" placeholder="SELECT SQL_C..projects..." />
+                <marker date="1441723765233" expanded="true" signature="37982:38120" placeholder="select count..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="38136:38287" placeholder="select ROUND..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="38304:38557" placeholder="select count..company_users..." />
+                <marker date="1441723765233" expanded="true" signature="38572:38675" placeholder="SELECT SUM(c..case_files..." />
+                <marker date="1441723765233" expanded="true" signature="38893:39768" placeholder="SELECT SQL_C..projects..." />
+                <marker date="1441723765233" expanded="true" signature="38978:39116" placeholder="select count..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="39132:39283" placeholder="select ROUND..easycases..." />
+                <marker date="1441723765233" expanded="true" signature="39300:39553" placeholder="select count..company_users..." />
+                <marker date="1441723765233" expanded="true" signature="39568:39671" placeholder="SELECT SUM(c..case_files..." />
+                <marker date="1441723765233" expanded="true" signature="44234:44452" placeholder="SELECT * FRO..." />
+                <marker date="1441723765233" expanded="true" signature="44821:44943" placeholder="UPDATE user_..." />
+                <marker date="1441723765233" expanded="true" signature="45480:45548" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="46583:46926" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="47068:47483" placeholder="SELECT * FRO..users..." />
+                <marker date="1441723765233" expanded="true" signature="47624:47967" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="48724:49195" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="49242:49709" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="49777:50248" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="50294:50761" placeholder="SELECT DISTI..users..." />
+                <marker date="1441723765233" expanded="true" signature="51372:51414" placeholder="SELECT MAX(i..project_users..." />
+                <marker date="1441723765233" expanded="true" signature="52117:52254" placeholder="INSERT INTO ..." />
+                <marker date="1441723765233" expanded="true" signature="54379:54449" placeholder="Delete FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="62195:62515" placeholder="SELECT User...users..." />
+                <marker date="1441723765233" expanded="true" signature="62719:63086" placeholder="SELECT User...users..." />
+                <marker date="1441723765233" expanded="true" signature="63817:63976" placeholder="SELECT proje..project_users..." />
+                <marker date="1441723765233" expanded="true" signature="65213:65504" placeholder="SELECT User...users..." />
+                <marker date="1441723765233" expanded="true" signature="67466:67535" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="67661:67730" placeholder="UPDATE proje..." />
+                <marker date="1441723765233" expanded="true" signature="72216:72557" placeholder="INSERT INTO ..." />
+                <marker date="1441723765233" expanded="true" signature="73016:73221" placeholder="SELECT SQL_C..custom_filters..." />
+                <marker date="1441723765233" expanded="true" signature="91153:91317" placeholder="SELECT Proje..projects..." />
+                <marker date="1441723765233" expanded="true" signature="92598:92666" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="98105:98149" placeholder="DELETE FROM ..." />
+                <marker date="1441723765233" expanded="true" signature="99029:99097" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer_inner.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Elements/footer_inner.ctp">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.1568382">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_members.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Easycase/ajax_members.ctp">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-21.206896">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="milestone.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Users/milestone.ctp">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.655172">
+              <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Projects/manage.ctp">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4117646">
+              <caret line="79" column="76" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/View/Users/login.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Projects/manage.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/View/Elements/footer_inner.ctp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2568" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1426" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orangescrum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="495af4b3-d6fa-480e-807d-81c1b3661ae4" name="Default" comment="" />
+      <created>1441721801669</created>
+      <option name="number" value="Default" />
+      <updated>1441721801669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2568" y="-8" width="2576" height="1426" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Controller/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1441723765233" expanded="true" signature="4966:5245" placeholder="select User...project_users..." />
+            <marker date="1441723765233" expanded="true" signature="6260:6394" placeholder="SELECT id FR..projects..." />
+            <marker date="1441723765233" expanded="true" signature="6617:6762" placeholder="SELECT id FR..projects..." />
+            <marker date="1441723765233" expanded="true" signature="10128:10170" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="10428:10458" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="10611:10654" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="10920:10962" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="12002:12089" placeholder="SELECT name ..projects..." />
+            <marker date="1441723765233" expanded="true" signature="12775:13748" placeholder="SELECT SQL_C..." />
+            <marker date="1441723765233" expanded="true" signature="13829:14760" placeholder="SELECT SQL_C..." />
+            <marker date="1441723765233" expanded="true" signature="14848:15791" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="14945:15083" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="15099:15254" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="15271:15525" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="15540:15641" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="15872:16772" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="15968:16106" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="16122:16277" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="16294:16548" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="16563:16664" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="17043:17232" placeholder="SELECT count..projects..." />
+            <marker date="1441723765233" expanded="true" signature="17291:17432" placeholder="SELECT count..projects..." />
+            <marker date="1441723765233" expanded="true" signature="22523:22565" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="28889:28931" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="29625:29690" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="29867:29946" placeholder="UPDATE case_..." />
+            <marker date="1441723765233" expanded="true" signature="30323:30469" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="30635:30714" placeholder="UPDATE case_..." />
+            <marker date="1441723765233" expanded="true" signature="32139:32585" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="32635:33031" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="33098:33576" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="33628:34055" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="35230:35272" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="35710:35740" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="35893:35936" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="36385:36427" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="37299:37375" placeholder="SELECT name ..projects..." />
+            <marker date="1441723765233" expanded="true" signature="37896:38814" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="37982:38120" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="38136:38287" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="38304:38557" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="38572:38675" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="38893:39768" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="38978:39116" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="39132:39283" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="39300:39553" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="39568:39671" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="44234:44452" placeholder="SELECT * FRO..." />
+            <marker date="1441723765233" expanded="true" signature="44821:44943" placeholder="UPDATE user_..." />
+            <marker date="1441723765233" expanded="true" signature="45480:45548" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="46583:46926" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="47068:47483" placeholder="SELECT * FRO..users..." />
+            <marker date="1441723765233" expanded="true" signature="47624:47967" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="48724:49195" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="49242:49709" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="49777:50248" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="50294:50761" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="51372:51414" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="52117:52254" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="54379:54449" placeholder="Delete FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="62195:62515" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="62719:63086" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="63817:63976" placeholder="SELECT proje..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="65213:65504" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="67466:67535" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="67661:67730" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="72216:72557" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="73016:73221" placeholder="SELECT SQL_C..custom_filters..." />
+            <marker date="1441723765233" expanded="true" signature="91153:91317" placeholder="SELECT Proje..projects..." />
+            <marker date="1441723765233" expanded="true" signature="92598:92666" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="98105:98149" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="99029:99097" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Users/login.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Easycase/ajax_members.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.206896">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Users/milestone.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.655172">
+          <caret line="43" column="87" selection-start-line="43" selection-start-column="87" selection-end-line="43" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4905663">
+          <caret line="345" column="8" selection-start-line="345" selection-start-column="8" selection-end-line="345" selection-end-column="8" />
+          <folding>
+            <marker date="1441723765233" expanded="true" signature="4966:5245" placeholder="select User...project_users..." />
+            <marker date="1441723765233" expanded="true" signature="6260:6394" placeholder="SELECT id FR..projects..." />
+            <marker date="1441723765233" expanded="true" signature="6617:6762" placeholder="SELECT id FR..projects..." />
+            <marker date="1441723765233" expanded="true" signature="10128:10170" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="10428:10458" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="10611:10654" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="10920:10962" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="12002:12089" placeholder="SELECT name ..projects..." />
+            <marker date="1441723765233" expanded="true" signature="12775:13748" placeholder="SELECT SQL_C..." />
+            <marker date="1441723765233" expanded="true" signature="13829:14760" placeholder="SELECT SQL_C..." />
+            <marker date="1441723765233" expanded="true" signature="14848:15791" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="14945:15083" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="15099:15254" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="15271:15525" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="15540:15641" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="15872:16772" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="15968:16106" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="16122:16277" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="16294:16548" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="16563:16664" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="17043:17232" placeholder="SELECT count..projects..." />
+            <marker date="1441723765233" expanded="true" signature="17291:17432" placeholder="SELECT count..projects..." />
+            <marker date="1441723765233" expanded="true" signature="22523:22565" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="28889:28931" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="29625:29690" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="29867:29946" placeholder="UPDATE case_..." />
+            <marker date="1441723765233" expanded="true" signature="30323:30469" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="30635:30714" placeholder="UPDATE case_..." />
+            <marker date="1441723765233" expanded="true" signature="32139:32585" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="32635:33031" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="33098:33576" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="33628:34055" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="35230:35272" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="35710:35740" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="35893:35936" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="36385:36427" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="37299:37375" placeholder="SELECT name ..projects..." />
+            <marker date="1441723765233" expanded="true" signature="37896:38814" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="37982:38120" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="38136:38287" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="38304:38557" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="38572:38675" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="38893:39768" placeholder="SELECT SQL_C..projects..." />
+            <marker date="1441723765233" expanded="true" signature="38978:39116" placeholder="select count..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="39132:39283" placeholder="select ROUND..easycases..." />
+            <marker date="1441723765233" expanded="true" signature="39300:39553" placeholder="select count..company_users..." />
+            <marker date="1441723765233" expanded="true" signature="39568:39671" placeholder="SELECT SUM(c..case_files..." />
+            <marker date="1441723765233" expanded="true" signature="44234:44452" placeholder="SELECT * FRO..." />
+            <marker date="1441723765233" expanded="true" signature="44821:44943" placeholder="UPDATE user_..." />
+            <marker date="1441723765233" expanded="true" signature="45480:45548" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="46583:46926" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="47068:47483" placeholder="SELECT * FRO..users..." />
+            <marker date="1441723765233" expanded="true" signature="47624:47967" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="48724:49195" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="49242:49709" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="49777:50248" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="50294:50761" placeholder="SELECT DISTI..users..." />
+            <marker date="1441723765233" expanded="true" signature="51372:51414" placeholder="SELECT MAX(i..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="52117:52254" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="54379:54449" placeholder="Delete FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="62195:62515" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="62719:63086" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="63817:63976" placeholder="SELECT proje..project_users..." />
+            <marker date="1441723765233" expanded="true" signature="65213:65504" placeholder="SELECT User...users..." />
+            <marker date="1441723765233" expanded="true" signature="67466:67535" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="67661:67730" placeholder="UPDATE proje..." />
+            <marker date="1441723765233" expanded="true" signature="72216:72557" placeholder="INSERT INTO ..." />
+            <marker date="1441723765233" expanded="true" signature="73016:73221" placeholder="SELECT SQL_C..custom_filters..." />
+            <marker date="1441723765233" expanded="true" signature="91153:91317" placeholder="SELECT Proje..projects..." />
+            <marker date="1441723765233" expanded="true" signature="92598:92666" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="98105:98149" placeholder="DELETE FROM ..." />
+            <marker date="1441723765233" expanded="true" signature="99029:99097" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Projects/manage.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4117646">
+          <caret line="79" column="76" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/footer_inner.ctp">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1568382">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

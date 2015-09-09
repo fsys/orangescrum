@@ -65,9 +65,9 @@ input#txt_Password{font-family: Arial}
 					}
 					else {
 						$pos = strpos(SUB_FOLDER, '/');
-						if ($pos === false) {
+						/*if ($pos === false) {
 							echo '<ul><li style="color:red;">Replace the SUB_FOLDER name as "'.SUB_FOLDER.'/" istead of "'.SUB_FOLDER.'" in the constants.php</li></ul>';
-						}
+						}*/
 					?>
 					<div style="padding:10px 5px;">
 						<div style="clear:both"></div>

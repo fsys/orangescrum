@@ -12,9 +12,7 @@
     
     <div style="clear:both"></div>
     <div style="text-align:center;padding:10px 0 0 0;">
-    <a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;"><img src="<?php echo HTTP_ROOT."img/google_groups.jpg"; ?>" style="width:100px;"/></a>
-    <br/>
-    You can ask for help, share your ideas, contribute to the community edition and also let us know your feedback using the <a href="https://groups.google.com/forum/#!forum/orangescrum-community-support" target="_blank" style="margin:0;">Orangescrum's Google Group</a>.
+    Orangescrum &copy;Fidelsys
     </div>
 </footer>
 <!-- Footer ends -->  

@@ -140,7 +140,9 @@
 			}
 			?>
 			</div>
-			<?php if($isAuth && $projtype == '') { ?>
+			<?php
+			if($isAuth) {
+				if($projtype == '') { ?>
 			    <div class="proj_mng">
 				<div class="fl">
 				    <a href="javascript:void(0);" class="icon-add-usr fl" data-prj-id="<?php echo $prjArr['Project']['id'];?>" data-prj-name="<?php echo $prj_name;?>">Add User</a><br />
@@ -169,7 +171,9 @@
 				    <div class="fr"><a href="javascript:void(0);" class="icon-del-prj del_prj" data-prj-id="<?php echo $prjArr['Project']['uniq_id'];?>" data-prj-name="<?php echo $prj_name;?>">Delete</a></div>
 				    <div class="cb"></div>
 				</div>
-			<?php }  ?>
+			<?php }
+			}
+			?>
 		    </div>
 	</div>
 	<?php } ?>

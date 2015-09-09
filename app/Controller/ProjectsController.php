@@ -297,24 +297,25 @@ class ProjectsController extends AppController {
 			$pj=$_GET['prj']."%";
 			$query .= " AND Project.name LIKE '".addslashes($pj)."'";
 		}
-		
+
+		$query = "AND project_users.user_id = '".SES_ID."'";
 		if(SES_TYPE == 3) {
 			if($pjname){
 				$prjAllArr = $this->Project->query("SELECT SQL_CALC_FOUND_ROWS Project.id,uniq_id,name,Project.user_id,project_type,short_name,Project.isactive,dt_updated,(select count(easycases.id) as tot from easycases where easycases.project_id=Project.id and easycases.istype='1' and easycases.isactive='1') as totalcase,(select ROUND(SUM(easycases.hours), 1) as hours from easycases where easycases.project_id=Project.id and easycases.reply_type='0' and easycases.isactive='1') as totalhours,(select count(company_users.id) as tot from company_users, project_users where project_users.user_id = company_users.user_id and project_users.company_id = company_users.company_id and company_users.is_active = 1
-	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.user_id = '".SES_ID."' WHERE Project.name!='' ".$query." and name LIKE '%".addslashes($pjname)."%' ORDER BY dt_created DESC LIMIT $limit1,$limit2 ");
+	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.project_id = Project.id WHERE Project.name!='' ".$query." and name LIKE '%".addslashes($pjname)."%' ORDER BY dt_created DESC LIMIT $limit1,$limit2 ");
 			}else{
 				$prjAllArr = $this->Project->query("SELECT SQL_CALC_FOUND_ROWS Project.id,uniq_id,name,Project.user_id,project_type,short_name,Project.isactive,dt_updated,(select count(easycases.id) as tot from easycases where easycases.project_id=Project.id and easycases.istype='1' and easycases.isactive='1') as totalcase,(select ROUND(SUM(easycases.hours), 1) as hours from easycases where easycases.project_id=Project.id and easycases.reply_type='0' and easycases.isactive='1') as totalhours,(select count(company_users.id) as tot from company_users, project_users where project_users.user_id = company_users.user_id and project_users.company_id = company_users.company_id and company_users.is_active = 1
-	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.user_id = '".SES_ID."' WHERE Project.name!='' ".$query." ORDER BY dt_created DESC LIMIT $limit1,$limit2");
+	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.project_id = Project.id WHERE Project.name!='' ".$query." ORDER BY dt_created DESC LIMIT $limit1,$limit2");
 		
 			}
 		}
 		else {
 			if($pjname){
 				$prjAllArr = $this->Project->query("SELECT SQL_CALC_FOUND_ROWS  id,uniq_id,name,user_id,project_type,short_name,isactive,dt_updated,(select count(easycases.id) as tot from easycases where easycases.project_id=Project.id and easycases.istype='1' and easycases.isactive='1') as totalcase,(select ROUND(SUM(easycases.hours), 1) as hours from easycases where easycases.project_id=Project.id and easycases.reply_type='0' and easycases.isactive='1') as totalhours,(select count(company_users.id) as tot from company_users, project_users where project_users.user_id = company_users.user_id and project_users.company_id = company_users.company_id and company_users.is_active = 1
-	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size  FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.user_id = '".SES_ID."' WHERE name!='' ".$query." and name LIKE '%".addslashes($pjname)."%' ORDER BY dt_created DESC LIMIT $limit1,$limit2 ");
+	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size  FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.project_id = Project.id WHERE name!='' ".$query." and name LIKE '%".addslashes($pjname)."%' ORDER BY dt_created DESC LIMIT $limit1,$limit2 ");
 			}else{
 				$prjAllArr = $this->Project->query("SELECT SQL_CALC_FOUND_ROWS id,uniq_id,name,user_id,project_type,short_name,isactive,dt_updated,(select count(easycases.id) as tot from easycases where easycases.project_id=Project.id and easycases.istype='1' and easycases.isactive='1') as totalcase,(select ROUND(SUM(easycases.hours), 1) as hours from easycases where easycases.project_id=Project.id and easycases.reply_type='0' and easycases.isactive='1') as totalhours,(select count(company_users.id) as tot from company_users, project_users where project_users.user_id = company_users.user_id and project_users.company_id = company_users.company_id and company_users.is_active = 1
-	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size  FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.user_id = '".SES_ID."' WHERE name!='' ".$query." ORDER BY dt_created DESC LIMIT $limit1,$limit2");
+	and project_users.project_id = Project.id) as totusers,(SELECT SUM(case_files.file_size) AS file_size  FROM case_files WHERE case_files.project_id=Project.id) AS storage_used FROM projects AS Project INNER JOIN project_users ON project_users.project_id = Project.id WHERE name!='' ".$query." ORDER BY dt_created DESC LIMIT $limit1,$limit2");
 		
 			}
 		}

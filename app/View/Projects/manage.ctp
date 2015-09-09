@@ -77,7 +77,7 @@
 	if(count($prjAllArr)){
 	foreach($prjAllArr as $k=>$prjArr){
 	$isAuth = false;
-	if($prjArr['Project']['user_id'] == SES_ID && USER_TYPE == 2) {
+	if($prjArr['Project']['user_id'] == SES_ID || USER_TYPE == 2) { // authorized to manage if creator or owner
 		$isAuth = true;
 	}
 	$totUser = !empty($prjArr[0]['totusers']) ? $prjArr[0]['totusers']: '0';
